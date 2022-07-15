@@ -1,5 +1,5 @@
 exports.handler = async (event) => {
-    let responseMessage = 'Hello, World!!!';
+    let responseMessage = 'Hello, World!';
 
     const response = {
         statusCode: 200,
