@@ -13,7 +13,7 @@ jobs:
 
     - name: Build docker
       run: |
-        docker build -t test .
+        docker build -f lessons/089/Dockerfile -t test .
   build-2:
     name: Build Docker
     runs-on: my-custom-runner
@@ -23,7 +23,7 @@ jobs:
 
     - name: Build docker
       run: |
-        docker build -t test .
+        docker build -f lessons/089/Dockerfile -t test .
   build-3:
     name: Build Docker
     runs-on: my-custom-runner
@@ -33,7 +33,7 @@ jobs:
 
     - name: Build docker
       run: |
-        docker build -t test .
+        docker build -f lessons/089/Dockerfile -t test .
   build-4:
     name: Build Docker
     runs-on: my-custom-runner
@@ -43,7 +43,7 @@ jobs:
 
     - name: Build docker
       run: |
-        docker build -t test .
+        docker build -f lessons/089/Dockerfile -t test .
   build-5:
     name: Build Docker
     runs-on: my-custom-runner
@@ -53,4 +53,4 @@ jobs:
 
     - name: Build docker
       run: |
-        docker build -t test .
+        docker build -f lessons/089/Dockerfile -t test .
