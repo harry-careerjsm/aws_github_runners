@@ -13,4 +13,4 @@ spec:
   metrics:
   - type: TotalNumberOfQueuedAndInProgressWorkflowRuns
     repositoryNames:
-    - antonputra/lesson-089
+    - harry-careerjsm/aws_github_runners
