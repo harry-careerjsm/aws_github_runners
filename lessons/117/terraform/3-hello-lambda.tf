@@ -1,5 +1,3 @@
-
-
 resource "aws_iam_role" "hello_lambda_exec" {
   name = "hello-lambda"
 
